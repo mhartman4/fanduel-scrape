@@ -1,0 +1,4162 @@
+Lineup 1
+Output: 257.7
+Payroll: 56900
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 2
+Output: 257.79999999999995
+Payroll: 57300
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 3
+Output: 257.9
+Payroll: 58000
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 4
+Output: 258.0
+Payroll: 58400
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 5
+Output: 258.2
+Payroll: 58100
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 6
+Output: 258.29999999999995
+Payroll: 58500
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 7
+Output: 258.4
+Payroll: 59200
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 8
+Output: 258.5
+Payroll: 59600
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 9
+Output: 258.7
+Payroll: 57800
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 10
+Output: 258.79999999999995
+Payroll: 58200
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 11
+Output: 258.9
+Payroll: 58900
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 12
+Output: 259.0
+Payroll: 59300
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 13
+Output: 259.2
+Payroll: 59000
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 14
+Output: 259.29999999999995
+Payroll: 59400
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 15
+Output: 259.7
+Payroll: 57400
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 16
+Output: 259.79999999999995
+Payroll: 57800
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 17
+Output: 259.9
+Payroll: 58500
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 18
+Output: 260.0
+Payroll: 58900
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 19
+Output: 260.2
+Payroll: 56300
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 20
+Output: 260.3
+Payroll: 56700
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 21
+Output: 260.7
+Payroll: 58300
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 22
+Output: 260.7
+Payroll: 57500
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 23
+Output: 260.79999999999995
+Payroll: 58700
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 24
+Output: 260.8
+Payroll: 57900
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 25
+Output: 260.9
+Payroll: 59400
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 26
+Output: 261.0
+Payroll: 59800
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 27
+Output: 261.2
+Payroll: 57800
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 28
+Output: 261.2
+Payroll: 57200
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 29
+Output: 261.29999999999995
+Payroll: 58200
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 30
+Output: 261.3
+Payroll: 57600
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 31
+Output: 261.4
+Payroll: 58900
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 32
+Output: 261.5
+Payroll: 59300
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 33
+Output: 261.59999999999997
+Payroll: 59000
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 34
+Output: 261.7
+Payroll: 59400
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 35
+Output: 261.7
+Payroll: 59000
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 36
+Output: 261.7
+Payroll: 58400
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 37
+Output: 261.79999999999995
+Payroll: 59400
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 38
+Output: 261.79999999999995
+Payroll: 57700
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 39
+Output: 261.8
+Payroll: 58800
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 40
+Output: 261.9
+Payroll: 58100
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 41
+Output: 262.0
+Payroll: 58800
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 42
+Output: 262.1
+Payroll: 59200
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 43
+Output: 262.2
+Payroll: 56800
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 44
+Output: 262.3
+Payroll: 57200
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 45
+Output: 262.79999999999995
+Payroll: 58600
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 46
+Output: 262.9
+Payroll: 59000
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 47
+Output: 263.0
+Payroll: 59700
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 48
+Output: 263.2
+Payroll: 58300
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 49
+Output: 263.2
+Payroll: 57700
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 50
+Output: 263.29999999999995
+Payroll: 57000
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 51
+Output: 263.29999999999995
+Payroll: 58700
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 52
+Output: 263.3
+Payroll: 58100
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 53
+Output: 263.4
+Payroll: 57400
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 54
+Output: 263.4
+Payroll: 59400
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 55
+Output: 263.5
+Payroll: 58100
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 56
+Output: 263.5
+Payroll: 59800
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 57
+Output: 263.59999999999997
+Payroll: 59500
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 58
+Output: 263.6
+Payroll: 58500
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 59
+Output: 263.7
+Payroll: 57200
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 60
+Output: 263.7
+Payroll: 59900
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 61
+Output: 263.79999999999995
+Payroll: 58200
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 62
+Output: 263.8
+Payroll: 57600
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 63
+Output: 263.9
+Payroll: 58600
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 64
+Output: 264.0
+Payroll: 59300
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 65
+Output: 264.09999999999997
+Payroll: 59000
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 66
+Output: 264.09999999999997
+Payroll: 58400
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 67
+Output: 264.1
+Payroll: 59700
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 68
+Output: 264.2
+Payroll: 58400
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 69
+Output: 264.2
+Payroll: 58800
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 70
+Output: 264.2
+Payroll: 59400
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 71
+Output: 264.29999999999995
+Payroll: 57100
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 72
+Output: 264.29999999999995
+Payroll: 57900
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 73
+Output: 264.3
+Payroll: 58800
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 74
+Output: 264.4
+Payroll: 58300
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 75
+Output: 264.4
+Payroll: 57500
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 76
+Output: 264.5
+Payroll: 59000
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 77
+Output: 264.59999999999997
+Payroll: 59600
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 78
+Output: 264.6
+Payroll: 59400
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 79
+Output: 264.7
+Payroll: 60000
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 80
+Output: 264.79999999999995
+Payroll: 59100
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 81
+Output: 264.9
+Payroll: 59500
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 82
+Output: 265.09999999999997
+Payroll: 59900
+PG1: Ricky Rubio
+PG2: Goran Dragic
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 83
+Output: 265.29999999999995
+Payroll: 58000
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 84
+Output: 265.29999999999995
+Payroll: 58600
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 85
+Output: 265.4
+Payroll: 59000
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 86
+Output: 265.4
+Payroll: 58400
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 87
+Output: 265.5
+Payroll: 59700
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 88
+Output: 265.7
+Payroll: 59800
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 89
+Output: 265.7
+Payroll: 57700
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 90
+Output: 265.8
+Payroll: 58100
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 91
+Output: 265.8
+Payroll: 56400
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 92
+Output: 265.90000000000003
+Payroll: 56800
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 93
+Output: 266.09999999999997
+Payroll: 58900
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 94
+Output: 266.09999999999997
+Payroll: 59500
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 95
+Output: 266.2
+Payroll: 59300
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 96
+Output: 266.2
+Payroll: 59900
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 97
+Output: 266.3
+Payroll: 57600
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 98
+Output: 266.40000000000003
+Payroll: 58000
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 99
+Output: 266.59999999999997
+Payroll: 58400
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 100
+Output: 266.7
+Payroll: 58800
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 101
+Output: 266.79999999999995
+Payroll: 57900
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 102
+Output: 266.8
+Payroll: 57300
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 103
+Output: 266.9
+Payroll: 58300
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 104
+Output: 266.90000000000003
+Payroll: 57700
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 105
+Output: 267.0
+Payroll: 59000
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 106
+Output: 267.09999999999997
+Payroll: 59600
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 107
+Output: 267.1
+Payroll: 59400
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 108
+Output: 267.2
+Payroll: 59100
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 109
+Output: 267.2
+Payroll: 60000
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 110
+Output: 267.29999999999995
+Payroll: 59100
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 111
+Output: 267.3
+Payroll: 59500
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 112
+Output: 267.3
+Payroll: 58500
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 113
+Output: 267.4
+Payroll: 59500
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 114
+Output: 267.40000000000003
+Payroll: 58900
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 115
+Output: 267.59999999999997
+Payroll: 59300
+PG1: Ricky Rubio
+PG2: Goran Dragic
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 116
+Output: 267.7
+Payroll: 59700
+PG1: Ricky Rubio
+PG2: Goran Dragic
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 117
+Output: 267.79999999999995
+Payroll: 58000
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 118
+Output: 267.9
+Payroll: 58400
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 119
+Output: 267.9
+Payroll: 59500
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Nikola Vucevic
+
+Lineup 120
+Output: 268.0
+Payroll: 59900
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Al Horford
+
+Lineup 121
+Output: 268.2
+Payroll: 59800
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 122
+Output: 268.2
+Payroll: 59200
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 123
+Output: 268.3
+Payroll: 59600
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 124
+Output: 268.59999999999997
+Payroll: 58900
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 125
+Output: 268.7
+Payroll: 59300
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 126
+Output: 268.9
+Payroll: 57600
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 127
+Output: 269.1
+Payroll: 58700
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 128
+Output: 269.3
+Payroll: 57300
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 129
+Output: 269.4
+Payroll: 58300
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 130
+Output: 269.4
+Payroll: 58800
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 131
+Output: 269.40000000000003
+Payroll: 57700
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 132
+Output: 269.5
+Payroll: 58700
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 133
+Output: 269.59999999999997
+Payroll: 59800
+PG1: Ricky Rubio
+PG2: Goran Dragic
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 134
+Output: 269.6
+Payroll: 59900
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 135
+Output: 269.6
+Payroll: 59400
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 136
+Output: 269.69999999999993
+Payroll: 59100
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 137
+Output: 269.7
+Payroll: 58500
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 138
+Output: 269.70000000000005
+Payroll: 59800
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 139
+Output: 269.79999999999995
+Payroll: 59500
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 140
+Output: 269.8
+Payroll: 58900
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 141
+Output: 269.8
+Payroll: 58500
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 142
+Output: 269.9
+Payroll: 58500
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 143
+Output: 269.9
+Payroll: 60000
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Nikola Vucevic
+
+Lineup 144
+Output: 269.90000000000003
+Payroll: 58900
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 145
+Output: 270.1
+Payroll: 59600
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 146
+Output: 270.2
+Payroll: 59700
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 147
+Output: 270.4
+Payroll: 59700
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 148
+Output: 270.4
+Payroll: 59200
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 149
+Output: 270.4
+Payroll: 58900
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Nikola Vucevic
+
+Lineup 150
+Output: 270.5
+Payroll: 59300
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Al Horford
+
+Lineup 151
+Output: 270.5
+Payroll: 59600
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 152
+Output: 270.69999999999993
+Payroll: 60000
+PG1: Ricky Rubio
+PG2: Goran Dragic
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 153
+Output: 270.7
+Payroll: 59200
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 154
+Output: 270.8
+Payroll: 59600
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 155
+Output: 270.9
+Payroll: 57600
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 156
+Output: 270.9
+Payroll: 58100
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 157
+Output: 271.0
+Payroll: 58000
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 158
+Output: 271.1
+Payroll: 59200
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 159
+Output: 271.1
+Payroll: 58700
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 160
+Output: 271.20000000000005
+Payroll: 59100
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 161
+Output: 271.4
+Payroll: 58800
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 162
+Output: 271.4
+Payroll: 59800
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Nikola Vucevic
+
+Lineup 163
+Output: 271.40000000000003
+Payroll: 57000
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 164
+Output: 271.5
+Payroll: 59200
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 165
+Output: 271.6
+Payroll: 59900
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 166
+Output: 271.9
+Payroll: 59700
+PG1: Kyrie Irving
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 167
+Output: 271.9
+Payroll: 59000
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 168
+Output: 271.9
+Payroll: 57700
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 169
+Output: 271.9
+Payroll: 58500
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 170
+Output: 271.90000000000003
+Payroll: 58200
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 171
+Output: 272.0
+Payroll: 58900
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 172
+Output: 272.0
+Payroll: 58100
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 173
+Output: 272.1
+Payroll: 59600
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 174
+Output: 272.2
+Payroll: 58500
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 175
+Output: 272.20000000000005
+Payroll: 60000
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 176
+Output: 272.3
+Payroll: 58900
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 177
+Output: 272.4
+Payroll: 58500
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 178
+Output: 272.4
+Payroll: 59400
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Nikola Vucevic
+
+Lineup 179
+Output: 272.4
+Payroll: 59700
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 180
+Output: 272.40000000000003
+Payroll: 57900
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 181
+Output: 272.5
+Payroll: 59800
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Al Horford
+
+Lineup 182
+Output: 272.6
+Payroll: 59600
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 183
+Output: 272.7
+Payroll: 59700
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 184
+Output: 272.8
+Payroll: 59700
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 185
+Output: 272.9
+Payroll: 58600
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 186
+Output: 272.9
+Payroll: 59200
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 187
+Output: 272.9
+Payroll: 59700
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 188
+Output: 272.90000000000003
+Payroll: 59100
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 189
+Output: 273.0
+Payroll: 59600
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 190
+Output: 273.0
+Payroll: 59000
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 191
+Output: 273.0
+Payroll: 58400
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 192
+Output: 273.0
+Payroll: 59700
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Derrick Favors
+C: Nikola Vucevic
+
+Lineup 193
+Output: 273.2
+Payroll: 59400
+PG1: Ricky Rubio
+PG2: Goran Dragic
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 194
+Output: 273.2
+Payroll: 59500
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 195
+Output: 273.3
+Payroll: 59800
+PG1: Ricky Rubio
+PG2: Goran Dragic
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 196
+Output: 273.4
+Payroll: 57000
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 197
+Output: 273.40000000000003
+Payroll: 57500
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 198
+Output: 273.49999999999994
+Payroll: 59600
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Nikola Vucevic
+
+Lineup 199
+Output: 273.5
+Payroll: 57400
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 200
+Output: 273.59999999999997
+Payroll: 60000
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Al Horford
+
+Lineup 201
+Output: 273.9
+Payroll: 58200
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 202
+Output: 273.9
+Payroll: 59800
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Nikola Vucevic
+
+Lineup 203
+Output: 274.0
+Payroll: 58600
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 204
+Output: 274.0
+Payroll: 59300
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 205
+Output: 274.4
+Payroll: 57900
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 206
+Output: 274.4
+Payroll: 58500
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 207
+Output: 274.4
+Payroll: 59000
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 208
+Output: 274.4
+Payroll: 59700
+PG1: Kyrie Irving
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 209
+Output: 274.40000000000003
+Payroll: 58400
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 210
+Output: 274.49999999999994
+Payroll: 59700
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Nikola Vucevic
+
+Lineup 211
+Output: 274.5
+Payroll: 57700
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 212
+Output: 274.5
+Payroll: 58900
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 213
+Output: 274.5
+Payroll: 58300
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 214
+Output: 274.6
+Payroll: 59600
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 215
+Output: 274.7
+Payroll: 58800
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 216
+Output: 274.70000000000005
+Payroll: 60000
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 217
+Output: 274.79999999999995
+Payroll: 59700
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 218
+Output: 274.9
+Payroll: 59100
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 219
+Output: 274.9
+Payroll: 59700
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 220
+Output: 274.90000000000003
+Payroll: 57900
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 221
+Output: 274.99999999999994
+Payroll: 58400
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 222
+Output: 275.0
+Payroll: 59500
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 223
+Output: 275.0
+Payroll: 58900
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 224
+Output: 275.09999999999997
+Payroll: 58800
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 225
+Output: 275.2
+Payroll: 60000
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 226
+Output: 275.2
+Payroll: 59500
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 227
+Output: 275.29999999999995
+Payroll: 59900
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 228
+Output: 275.3
+Payroll: 59700
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 229
+Output: 275.3
+Payroll: 59100
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 230
+Output: 275.4
+Payroll: 58600
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 231
+Output: 275.40000000000003
+Payroll: 59100
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 232
+Output: 275.5
+Payroll: 58600
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 233
+Output: 275.5
+Payroll: 59000
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 234
+Output: 275.5
+Payroll: 57800
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 235
+Output: 275.7
+Payroll: 59700
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 236
+Output: 275.8
+Payroll: 59800
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 237
+Output: 275.99999999999994
+Payroll: 59300
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 238
+Output: 276.0
+Payroll: 59800
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 239
+Output: 276.0
+Payroll: 59000
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Nikola Vucevic
+
+Lineup 240
+Output: 276.09999999999997
+Payroll: 60000
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: LeBron James
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 241
+Output: 276.09999999999997
+Payroll: 59700
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 242
+Output: 276.1
+Payroll: 59400
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Al Horford
+
+Lineup 243
+Output: 276.5
+Payroll: 58700
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 244
+Output: 276.5
+Payroll: 59300
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 245
+Output: 276.9
+Payroll: 57900
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 246
+Output: 276.90000000000003
+Payroll: 58400
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 247
+Output: 277.0
+Payroll: 59900
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Nikola Vucevic
+
+Lineup 248
+Output: 277.0
+Payroll: 58300
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 249
+Output: 277.00000000000006
+Payroll: 57100
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 250
+Output: 277.29999999999995
+Payroll: 59700
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 251
+Output: 277.3
+Payroll: 59600
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 252
+Output: 277.3
+Payroll: 59100
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 253
+Output: 277.4
+Payroll: 59100
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 254
+Output: 277.40000000000003
+Payroll: 59500
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 255
+Output: 277.5
+Payroll: 59800
+PG1: Kyrie Irving
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 256
+Output: 277.5
+Payroll: 57800
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 257
+Output: 277.5
+Payroll: 59500
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 258
+Output: 277.50000000000006
+Payroll: 58300
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 259
+Output: 277.6
+Payroll: 58200
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 260
+Output: 277.8
+Payroll: 59100
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 261
+Output: 278.0
+Payroll: 58600
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 262
+Output: 278.00000000000006
+Payroll: 58000
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 263
+Output: 278.2
+Payroll: 59700
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 264
+Output: 278.3
+Payroll: 59800
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 265
+Output: 278.40000000000003
+Payroll: 59800
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 266
+Output: 278.49999999999994
+Payroll: 59300
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 267
+Output: 278.5
+Payroll: 59800
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 268
+Output: 278.5
+Payroll: 58700
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 269
+Output: 278.50000000000006
+Payroll: 59200
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 270
+Output: 278.59999999999997
+Payroll: 59700
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 271
+Output: 278.6
+Payroll: 59800
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Derrick Favors
+C: Nikola Vucevic
+
+Lineup 272
+Output: 278.6
+Payroll: 59100
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 273
+Output: 278.8
+Payroll: 60000
+PG1: Ricky Rubio
+PG2: Goran Dragic
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 274
+Output: 279.0
+Payroll: 58700
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 275
+Output: 279.40000000000003
+Payroll: 59900
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 276
+Output: 279.5
+Payroll: 59900
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Nikola Vucevic
+
+Lineup 277
+Output: 279.79999999999995
+Payroll: 59100
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 278
+Output: 279.8
+Payroll: 59600
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Klay Thompson
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 279
+Output: 279.9
+Payroll: 59500
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 280
+Output: 280.0
+Payroll: 59800
+PG1: Kyrie Irving
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 281
+Output: 280.50000000000006
+Payroll: 58000
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 282
+Output: 280.6
+Payroll: 59000
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 283
+Output: 280.79999999999995
+Payroll: 60000
+PG1: Ricky Rubio
+PG2: Goran Dragic
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 284
+Output: 280.9
+Payroll: 59800
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 285
+Output: 280.90000000000003
+Payroll: 59200
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 286
+Output: 281.0
+Payroll: 58700
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 287
+Output: 281.00000000000006
+Payroll: 59200
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 288
+Output: 281.1
+Payroll: 59100
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Al Horford
+
+Lineup 289
+Output: 281.4
+Payroll: 59900
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 290
+Output: 281.6
+Payroll: 59900
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 291
+Output: 281.6
+Payroll: 59600
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: DeMarcus Cousins
+
+Lineup 292
+Output: 281.90000000000003
+Payroll: 59900
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Evan Turner
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 293
+Output: 282.1
+Payroll: 58300
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 294
+Output: 282.3
+Payroll: 59400
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Paul George
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 295
+Output: 282.6
+Payroll: 59500
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 296
+Output: 283.1
+Payroll: 59200
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 297
+Output: 283.1
+Payroll: 58400
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 298
+Output: 283.40000000000003
+Payroll: 59200
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 299
+Output: 283.59999999999997
+Payroll: 59600
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Nikola Vucevic
+
+Lineup 300
+Output: 283.7
+Payroll: 60000
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: Al Horford
+
+Lineup 301
+Output: 283.9
+Payroll: 59900
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: Nikola Vucevic
+
+Lineup 302
+Output: 284.1
+Payroll: 59900
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 303
+Output: 284.1
+Payroll: 59300
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 304
+Output: 284.6
+Payroll: 57700
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 305
+Output: 285.1
+Payroll: 58900
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 306
+Output: 285.6
+Payroll: 58600
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 307
+Output: 285.6
+Payroll: 59200
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 308
+Output: 286.1
+Payroll: 59800
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Gordon Hayward
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 309
+Output: 286.2
+Payroll: 59100
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 310
+Output: 286.6
+Payroll: 59300
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Arron Afflalo
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 311
+Output: 287.2
+Payroll: 60000
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 312
+Output: 287.20000000000005
+Payroll: 59700
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Josh McRoberts
+PF2: Derrick Favors
+C: DeMarcus Cousins
+
+Lineup 313
+Output: 288.1
+Payroll: 58600
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 314
+Output: 288.50000000000006
+Payroll: 59800
+PG1: Ricky Rubio
+PG2: Jameer Nelson
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 315
+Output: 288.6
+Payroll: 59800
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Gordon Hayward
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 316
+Output: 288.70000000000005
+Payroll: 58500
+PG1: Jameer Nelson
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 317
+Output: 289.7
+Payroll: 60000
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Terrence Jones
+SF2: Rudy Gay
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 318
+Output: 289.70000000000005
+Payroll: 59400
+PG1: Goran Dragic
+PG2: Jameer Nelson
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 319
+Output: 291.0
+Payroll: 59800
+PG1: Ricky Rubio
+PG2: Isaiah Thomas
+SG1: Klay Thompson
+SG2: Monta Ellis
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+Lineup 320
+Output: 292.20000000000005
+Payroll: 59400
+PG1: Goran Dragic
+PG2: Isaiah Thomas
+SG1: Monta Ellis
+SG2: Evan Turner
+SF1: Andre Iguodala
+SF2: Terrence Jones
+PF1: Andrea Bargnani
+PF2: Josh McRoberts
+C: DeMarcus Cousins
+
+320 possible lineups under the cap
+30000 possible lineups
