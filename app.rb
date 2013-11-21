@@ -77,7 +77,7 @@ centers.each do |center|
             sg2s.each do |sg2|
               pgs.each do |pg|
                 pg2s.each do |pg2|
-                  if pg != pg2 && sg != sg2 && sf != sf2 && pf != pf2
+                  if (pg != pg2) && (sg != sg2) && (sf != sf2) && (pf != pf2)
                       temp_lineup = Lineup.new(pg, pg2, sg, sg2, sf, sf2, pf, pf2, center)
                       puts "#{temp_lineup.payroll}"
                       possible_lineups << temp_lineup
@@ -98,7 +98,7 @@ unique_lineups = possible_lineups.uniq { |possline| possline.roster }
 sorted_lineups = unique_lineups.sort_by { |ul| [ul.output] }
 
 sorted_lineups.each do |lineup|
-  if lineup.payroll != 0
+  if lineup.payroll < 60001
     puts "Lineup #{unique_count+1}"
     puts "Output: #{lineup.output}"
     puts "Payroll: #{lineup.payroll}"

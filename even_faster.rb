@@ -1,6 +1,5 @@
-require 'csv'
-
 start_time = Time.now
+require 'csv'
 
 class Player
   attr_reader :position, :name, :points, :salary
@@ -32,13 +31,14 @@ class Lineup
   end
 end
 
-
 centers = []
 pfs = []
 sfs = []
 sgs = []
 pgs = []
 
+
+#read in player list and put them in the appropriate array (doesn't take long)
 CSV.foreach("playerlist.csv", :headers => true) do |row|
   temp_position = row["position"]
   temp_name = row["name"]
@@ -59,15 +59,20 @@ CSV.foreach("playerlist.csv", :headers => true) do |row|
     pgs << temp_player
   end
 end
-combo_count = 0
-unique_count = 0
+
+#array of possible lineups
 possible_lineups = []
 
+#make a copy of PG/SG/SF/PF because we have to pick 2
 pf2s = pfs
 sf2s = sfs
 sg2s = sgs
 pg2s = pgs
 
+combo_count = 0
+unique_count = 0
+
+#the fun part!
 centers.each do |center|
   pfs.each do |pf|
     pf2s.each do |pf2|
@@ -81,9 +86,19 @@ centers.each do |center|
                       pgs.each do |pg|
                         pg2s.each do |pg2|
                           if (pg != pg2)
+                            #the problem is how many times it reaches this part
+                            combo_count = combo_count+1
+
+                            #its faster to calculate the lineup's payroll and only initialize those under 60k, rather than initialize all of them and filter by their payrolls
                             temp_payroll = pg.salary+pg2.salary+sg.salary+sg2.salary+sf.salary+sf2.salary+pf.salary+pf2.salary+center.salary
-                            if temp_payroll < 60000
+
+                            #filter for teams under 60k in payroll
+                            if temp_payroll < 60001
+
+                              #initialize lineup object
                               temp_lineup = Lineup.new(pg, pg2, sg, sg2, sf, sf2, pf, pf2, center)
+
+                              #add it to the array of possible lineups
                               possible_lineups << temp_lineup
                             end
                           end
@@ -100,7 +115,10 @@ centers.each do |center|
   end
 end
 
+#gets rid of duplicate lineups (e.g. SG1: Jordan SG2: Bird vs. SG1: Bird SG2: Jordan)
 unique_lineups = possible_lineups.uniq { |possline| possline.roster }
+
+#sorts all possible lineups by their output (i.e. how many points they're projected to have)
 sorted_lineups = unique_lineups.sort_by { |ul| [ul.output] }
 sorted_count = 0
 sorted_lineups.each do |lineup|
@@ -120,13 +138,10 @@ sorted_lineups.each do |lineup|
     sorted_count = sorted_count +1
 end
 
-puts "#{combo_count} total possible lineups"
-puts "#{unique_count} unique lineups"
-puts "#{sorted_lineups.length} possible lineups without repeats"
+puts "#{combo_count} iterations"
+puts "#{sorted_lineups.length} possible lineups returned"
 
-time_finish = Time.now
-diff = time_finish - start_time
-puts "Script took #{diff} seconds"
+puts "Script took #{Time.now - start_time} seconds"
 
 
 
