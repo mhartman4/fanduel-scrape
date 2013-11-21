@@ -85,7 +85,6 @@ centers.each do |center|
                             if temp_payroll < 60000
                               temp_lineup = Lineup.new(pg, pg2, sg, sg2, sf, sf2, pf, pf2, center)
                               possible_lineups << temp_lineup
-                              unique_count = unique_count + 1
                             end
                           end
                         end
@@ -101,7 +100,29 @@ centers.each do |center|
   end
 end
 
-puts "#{unique_count}"
+unique_lineups = possible_lineups.uniq { |possline| possline.roster }
+sorted_lineups = unique_lineups.sort_by { |ul| [ul.output] }
+sorted_count = 0
+sorted_lineups.each do |lineup|
+    puts "Lineup #{sorted_count+1}"
+    puts "Output: #{lineup.output}"
+    puts "Payroll: #{lineup.payroll}"
+    puts "PG1: #{lineup.pg1.name}"
+    puts "PG2: #{lineup.pg2.name}"
+    puts "SG1: #{lineup.sg1.name}"
+    puts "SG2: #{lineup.sg2.name}"
+    puts "SF1: #{lineup.sf1.name}"
+    puts "SF2: #{lineup.sf2.name}"
+    puts "PF1: #{lineup.pf1.name}"
+    puts "PF2: #{lineup.pf2.name}"
+    puts "C: #{lineup.c.name}"
+    puts ""
+    sorted_count = sorted_count +1
+end
+
+puts "#{combo_count} total possible lineups"
+puts "#{unique_count} unique lineups"
+puts "#{sorted_lineups.length} possible lineups without repeats"
 
 time_finish = Time.now
 diff = time_finish - start_time
