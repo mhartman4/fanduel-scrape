@@ -68,12 +68,21 @@ while i < num do
   i +=1
 end
 
-CSV.open("daily_salaries.csv", "wb") do |csv|
-  csv << ["Fanduel PlayerID", "Name", "Salary"]
+CSV.open("/Users/michael-orderup/Google Drive/Fanduel/salaries.csv", "ab") do |csv|
+  csv << []
   players.each do |player|
-    csv << ["#{player.player_id}", "#{player.name}", "#{player.salary}"]
+    csv << ["#{Date.today}", "#{player.position}", "#{player.name}", "#{player.salary}"]
     puts "#{player.name} added to the csv"
   end
 end
+
+=begin
+CSV.open("/Users/michael-orderup/Google Drive/Fanduel/salary_history.csv", "wb") do |csv|
+  players.each do |player|
+    csv << ["#{Date.today+1}","#{player.position}", "#{player.name}", "#{player.salary}"]
+    puts "#{player.name} added to the csv"
+  end
+end
+=end
 
 
