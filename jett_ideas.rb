@@ -39,27 +39,29 @@ pgs = []
 
 
 #read in player list and put them in the appropriate array (doesn't take long)
-CSV.foreach("playerlist.csv", :headers => true) do |row|
+row_count = 0
+CSV.foreach("allyesterdays.csv", :headers => true) do |row|
   temp_position = row["position"]
   temp_name = row["name"]
-  temp_points = row["points"]
-  temp_salary = row["salary"]
-
+  temp_points = row["points"].to_f
+  temp_salary = row["salary"].to_i
+  temp_value = row["value"].to_f
   temp_player = Player.new(temp_position, temp_name, temp_points, temp_salary)
 
-  if temp_position=="C"
-    centers << temp_player
-  elsif temp_position=="PF"
-    pfs << temp_player
-  elsif temp_position=="SF"
-    sfs << temp_player
-  elsif temp_position=="SG"
-    sgs << temp_player
-  elsif temp_position=="PG"
-    pgs << temp_player
+  if temp_points > 25.0
+    if temp_position=="C"
+      centers << temp_player
+    elsif temp_position=="PF"
+      pfs << temp_player
+    elsif temp_position=="SF"
+      sfs << temp_player
+    elsif temp_position=="SG"
+      sgs << temp_player
+    elsif temp_position=="PG"
+      pgs << temp_player
+    end
   end
 end
-
 #array of possible lineups
 possible_lineups = []
 
@@ -72,6 +74,7 @@ pg2s = pgs
 iteration_count = 0
 unique_count = 0
 
+
 #the fun part!
 centers.each do |center|
   pfs.each do |pf|
@@ -81,31 +84,37 @@ centers.each do |center|
           sf2s.each do |sf2|
              if sf != sf2
               sgs.each do |sg|
-                sg2s.each do |sg2|
-                    if sg != sg2
-                      pgs.each do |pg|
-                        pg2s.each do |pg2|
-                          if (pg != pg2)
-                            #the problem is how many times it reaches this part
-                            iteration_count = iteration_count+1
-
-                            #its faster to calculate the lineup's payroll and only initialize those under 60k, rather than initialize all of them and filter by their payrolls
-                            temp_payroll = pg.salary+pg2.salary+sg.salary+sg2.salary+sf.salary+sf2.salary+pf.salary+pf2.salary+center.salary
-
-                            #filter for teams under 60k in payroll
+                  sg2s.each do |sg2|
+                      #temp_payroll = sg.salary+sg2.salary+sf.salary+sf2.salary+pf.salary+pf2.salary+center.salary
+                      #if temp_payroll < 60001
+                        if sg != sg2
+                          pgs.each do |pg|
+                            temp_payroll = pg.salary+sg.salary+sg2.salary+sf.salary+sf2.salary+pf.salary+pf2.salary+center.salary
                             if temp_payroll < 60001
+                              pg2s.each do |pg2|
+                                if (pg != pg2)
+                                  #the problem is how many times it reaches this part
+                                  iteration_count = iteration_count+1
+                                  puts "#{iteration_count}"
+                                  #its faster to calculate the lineup's payroll and only initialize those under 60k, rather than initialize all of them and filter by their payrolls
+                                  temp_payroll = pg.salary+pg2.salary+sg.salary+sg2.salary+sf.salary+sf2.salary+pf.salary+pf2.salary+center.salary
 
-                              #initialize lineup object
-                              temp_lineup = Lineup.new(pg, pg2, sg, sg2, sf, sf2, pf, pf2, center)
+                                  #filter for teams under 60k in payroll
+                                  if temp_payroll < 60001
 
-                              #add it to the array of possible lineups
-                              possible_lineups << temp_lineup
+                                    #initialize lineup object
+                                    temp_lineup = Lineup.new(pg, pg2, sg, sg2, sf, sf2, pf, pf2, center)
+
+                                    #add it to the array of possible lineups
+                                    possible_lineups << temp_lineup
+                                  end
+                                end
+                              end
                             end
                           end
                         end
-                      end
-                    end
-                end
+                      #end
+                  end
               end
             end
           end
@@ -114,6 +123,7 @@ centers.each do |center|
     end
   end
 end
+
 
 #gets rid of duplicate lineups (e.g. SG1: Jordan SG2: Bird vs. SG1: Bird SG2: Jordan)
 unique_lineups = possible_lineups.uniq { |possline| possline.roster }
@@ -138,14 +148,9 @@ sorted_lineups.each do |lineup|
     sorted_count = sorted_count +1
 end
 
+
+
 puts "#{iteration_count} iterations"
 puts "#{sorted_lineups.length} possible lineups returned"
 
 puts "Script took #{Time.now - start_time} seconds"
-
-
-
-
-
-
-
