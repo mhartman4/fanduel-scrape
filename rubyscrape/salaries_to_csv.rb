@@ -3,7 +3,7 @@ require 'open-uri'
 require 'nokogiri'
 require 'CSV'
 
-fanduel_url = "https://www.fanduel.com/e/Game/9093?tableId=3128082"
+fanduel_url = "https://www.fanduel.com/e/Game/9107?tableId=3159199"
 
 class Player
   attr_reader :player_id, :position, :name, :salary, :fppg, :games_played, :yahoo_url
