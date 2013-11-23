@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'open-uri'
 require 'nokogiri'
+require 'CSV'
 
 class Player
   attr_reader :name, :mp, :stats
@@ -220,6 +221,8 @@ bballref_url = "http://www.basketball-reference.com/boxscores/201311220TOR.html"
 doc = Nokogiri::HTML(open(bballref_url))
 s = doc.to_s
 
+away_slug = s[s.index('2014.html')-4..s.index('2014.html')-2]
+home_slug = bballref_url[bballref_url.length-8..bballref_url.length-6]
 
 team1_basic = manscape(s, 'Basic Box Score', '_advanced', 0, 0)[0]
 s = manscape(s, 'Basic Box Score', '_advanced', 0, 0)[1]
@@ -259,20 +262,17 @@ team2_basic.each do |basic_plyr|
   end
 end
 
-team1 = team1_basic
-team2 = team2_basic
+away_team = team1_basic
+home_team = team2_basic
 
-team1.each do |plyr|
-  puts "#{plyr.name}, #{plyr.mp}"
-  plyr.stats.each do |stat|
-    puts " -#{stat}"
-  end
-end
 
-team2.each do |plyr|
-  puts "#{plyr.name}, #{plyr.mp}"
-  plyr.stats.each do |stat|
-    puts " -#{stat}"
+
+
+CSV.open("test.csv", "ab") do |csv|
+  csv << []
+  away_team.each do |player|
+    csv << ["#{Date.today}", nil , nil, "#{player.name}", "#{home_slug}", "#{player.mp}",  "#{player.stats[:fg]}",   "#{player.stats[:fga]}",  "#{player.stats[:fg_perc]}",  "#{player.stats[:threep]}",   "#{player.stats[:threepa]}",  "#{player.stats[:threep_perc]}",  "#{player.stats[:ft]}",   "#{player.stats[:fta]}",  "#{player.stats[:ft_perc]}",  "#{player.stats[:orb]}",  "#{player.stats[:drb]}",  "#{player.stats[:trb]}",  "#{player.stats[:ast]}",  "#{player.stats[:stl]}",  "#{player.stats[:blk]}",  "#{player.stats[:pf]}",   "#{player.stats[:pts]}",  "#{player.stats[:ts_perc]}",  "#{player.stats[:efg_perc]}",   "#{player.stats[:orb_perc]}",   "#{player.stats[:drb_perc]}",   "#{player.stats[:trb_perc]}",   "#{player.stats[:ast_perc]}",   "#{player.stats[:stl_perc]}",   "#{player.stats[:blk_perc]}",   "#{player.stats[:tov_perc]}",   "#{player.stats[:usg_perc]}",   "#{player.stats[:o_rtg]}",  "#{player.stats[:d_rtg]}"]
+    puts "#{player.name} added to the csv"
   end
 end
 
