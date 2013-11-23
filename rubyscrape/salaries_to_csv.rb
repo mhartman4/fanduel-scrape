@@ -3,6 +3,8 @@ require 'open-uri'
 require 'nokogiri'
 require 'CSV'
 
+fanduel_url = "https://www.fanduel.com/e/Game/9093?tableId=3128082"
+
 class Player
   attr_reader :player_id, :position, :name, :salary, :fppg, :games_played, :yahoo_url
 
@@ -18,7 +20,7 @@ class Player
 end
 
 
-doc = Nokogiri::HTML(open("https://www.fanduel.com/e/Game/9093?tableId=3128082"))
+doc = Nokogiri::HTML(open(fanduel_url))
 s = doc.to_s
 #puts s
 a = s.index('FD.playerpicker.allPlayersFullData')+37
