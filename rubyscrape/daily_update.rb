@@ -1,3 +1,4 @@
+require 'date'
 require 'rubygems'
 require 'open-uri'
 require 'nokogiri'
@@ -218,19 +219,32 @@ def extract_info_advanced(input)
   return adv_players
 end
 
-bballref_url = "http://www.basketball-reference.com/boxscores/201311220BOS.html"
+initial_url = "http://www.basketball-reference.com/leagues/NBA_2014_games.html"
+
+doc = Nokogiri::HTML(open(initial_url))
+s = doc.to_s
+num = s.scan(/>Box Score</).count
+
 urls = []
-urls << "http://www.basketball-reference.com/boxscores/201311220BOS.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220CHA.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220DAL.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220LAL.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220DET.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220MEM.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220MIN.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220NOP.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220PHI.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220POR.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220TOR.html"
+while num > 0 do
+ needle = manscape(s, '">Box Score', '">Box Score', -17, -1)[0]
+  s = manscape(s, '">Box Score', '">Box Score', 0, 20)[1]
+  s = manscape(s, '</tr>', '</tr>', 0, 20)[1]
+  needle = "http://www.basketball-reference.com/boxscores/" << needle
+  d = (Date.today-1).to_s
+  yr = d[0..3]
+  mo = d[5..6]
+  dy = d[8..9]
+  if (needle.scan(/#{yr}#{mo}#{dy}/).count==1)
+    needle_year = needle[46..49]
+    needle_month = needle[50..51]
+    needle_day = needle[52..53]
+    needle_date = "#{needle_year}-#{needle_month}-#{needle_day}"
+    urls << needle
+  end
+  num-=1
+end
+
 
 urls.each do |url|
   doc = Nokogiri::HTML(open(url))
@@ -284,32 +298,23 @@ urls.each do |url|
 
   sql = ""
 
-  away_team.each do |player|
+   away_team.each do |player|
     sql = "UPDATE `oconnor` SET `mp`='#{player.mp}', `team`='#{away_slug}', `opp`='#{home_slug}', "
     player.stats.each_pair {|key,value| sql << "`#{key}`='#{value}', "}
-    sql = sql[0..sql.length-3]
+    temp_fdp = (player.stats[:pts]+(player.stats[:trb]*1.2)+(player.stats[:ast]*1.5)+(player.stats[:blk]*2)+player.stats[:stl]*2-player.stats[:tov])
+    sql << "`fanduel_pts`='#{temp_fdp}'"
     t_name = player.name.gsub("'", %q(\\\'))
-    sql << " WHERE `date` = '#{Date.today}' AND `name` = '#{t_name}';"
+    sql << " WHERE `date` = '#{Date.today-1}' AND `name` = '#{t_name}';"
     puts sql
   end
 
   home_team.each do |player|
     sql = "UPDATE `oconnor` SET `mp`='#{player.mp}', `team`='#{home_slug}', `opp`='#{away_slug}', "
     player.stats.each_pair {|key,value| sql << "`#{key}`='#{value}', "}
-    sql = sql[0..sql.length-3]
+temp_fdp = (player.stats[:pts]+(player.stats[:trb]*1.2)+(player.stats[:ast]*1.5)+(player.stats[:blk]*2)+player.stats[:stl]*2-player.stats[:tov])
+    sql << "`fanduel_pts`='#{temp_fdp}'"
     t_name = player.name.gsub("'", %q(\\\'))
-    sql << " WHERE `date` = '#{Date.today}' AND `name` = '#{t_name}';"
+    sql << " WHERE `date` = '#{Date.today-1}' AND `name` = '#{t_name}';"
     puts sql
   end
 end
-
-=begin
-Phil (Flip) Pressey (FD) -> change to just Phil
-Brad vs Bradley Beal -> Bradley
-Glen Rice Jr. (FD) -> Glen Rice
-Jose Juan Barea -> Jose Barea
-Jeffrey Taylor -> Jeff Taylor
-=end
-
-
-

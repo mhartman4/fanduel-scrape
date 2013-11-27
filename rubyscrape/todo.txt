@@ -1,0 +1,4 @@
+TO DO:
+- Find the right Fanduel link and set the date (run salaries to sql)
+- Run the update to find yesterday's box scores
+  - Look out for funny spellings and add them to the fanduel list (and go back and change them in the database)

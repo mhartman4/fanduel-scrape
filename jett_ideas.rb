@@ -40,7 +40,7 @@ pgs = []
 
 #read in player list and put them in the appropriate array (doesn't take long)
 row_count = 0
-CSV.foreach("11-22-2013.csv", :headers => true) do |row|
+CSV.foreach("11-24-2013.csv", :headers => true) do |row|
   temp_position = row["position"]
   temp_name = row["name"]
   temp_points = row["points"].to_f
@@ -48,7 +48,7 @@ CSV.foreach("11-22-2013.csv", :headers => true) do |row|
   temp_value = row["value"].to_f
   temp_player = Player.new(temp_position, temp_name, temp_points, temp_salary)
 
-  if temp_value > 4.6
+  if temp_value > 4.4
     if temp_position=="C"
       centers << temp_player
     elsif temp_position=="PF"

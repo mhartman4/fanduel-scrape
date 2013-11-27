@@ -218,98 +218,23 @@ def extract_info_advanced(input)
   return adv_players
 end
 
-bballref_url = "http://www.basketball-reference.com/boxscores/201311220BOS.html"
+initial_url = "http://www.basketball-reference.com/leagues/NBA_2014_games.html"
+
+
+doc = Nokogiri::HTML(open(initial_url))
+s = doc.to_s
+num = s.scan(/>Box Score</).count
+
 urls = []
-urls << "http://www.basketball-reference.com/boxscores/201311220BOS.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220CHA.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220DAL.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220LAL.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220DET.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220MEM.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220MIN.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220NOP.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220PHI.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220POR.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220TOR.html"
-
-urls.each do |url|
-  doc = Nokogiri::HTML(open(url))
-  s = doc.to_s
-
-  away_slug = s[s.index('2014.html')-4..s.index('2014.html')-2]
-  home_slug = url[url.length-8..url.length-6]
-
-  team1_basic = manscape(s, 'Basic Box Score', '_advanced', 0, 0)[0]
-  s = manscape(s, 'Basic Box Score', '_advanced', 0, 0)[1]
-
-  team1_advanced = manscape(s, 'Advanced Box Score', '_basic', 0, 0)[0]
-  s = manscape(s, 'Advanced Box Score', '_basic', 0, 0)[1]
-
-  team2_basic = manscape(s, 'Basic Box Score', '_advanced', 0, 0)[0]
-  s = manscape(s, 'Basic Box Score', '_advanced', 0, 0)[1]
-
-  team2_advanced = manscape(s, 'Advanced Box Score', '</tr></tfoot>',0, 0)[0]
-
-  #remove the categories
-  team1_basic = remove_categories(team1_basic)
-  team1_advanced = remove_categories(team1_advanced)
-  team2_basic = remove_categories(team2_basic)
-  team2_advanced = remove_categories(team2_advanced)
-
-  team1_basic = extract_info_basic(team1_basic)
-  team2_basic = extract_info_basic(team2_basic)
-  team1_advanced = extract_info_advanced(team1_advanced)
-  team2_advanced = extract_info_advanced(team2_advanced)
-
-  team1_basic.each do |basic_plyr|
-    team1_advanced.each do |adv_plyr|
-      if basic_plyr.name==adv_plyr.name
-        basic_plyr.stats.merge!(adv_plyr.stats) {|key, aval, bval| aval.merge b_val}
-      end
-    end
+while num > 0 do
+ needle = manscape(s, '">Box Score', '">Box Score', -17, -1)[0]
+  s = manscape(s, '">Box Score', '">Box Score', 0, 20)[1]
+  s = manscape(s, '</tr>', '</tr>', 0, 20)[1]
+  needle = "http://www.basketball-reference.com/boxscores/" << needle
+  if (needle.scan(/1122/).count==0)
+    urls << needle
+    puts needle
   end
-
-  team2_basic.each do |basic_plyr|
-    team2_advanced.each do |adv_plyr|
-      if basic_plyr.name==adv_plyr.name
-        basic_plyr.stats.merge!(adv_plyr.stats) {|key, aval, bval| aval.merge b_val}
-      end
-    end
-  end
-
-
-  #start doin shit
-  away_team = team1_basic
-  home_team = team2_basic
-
-  sql = ""
-
-  away_team.each do |player|
-    sql = "UPDATE `oconnor` SET `mp`='#{player.mp}', `team`='#{away_slug}', `opp`='#{home_slug}', "
-    player.stats.each_pair {|key,value| sql << "`#{key}`='#{value}', "}
-    sql = sql[0..sql.length-3]
-    t_name = player.name.gsub("'", %q(\\\'))
-    sql << " WHERE `date` = '#{Date.today}' AND `name` = '#{t_name}';"
-    puts sql
-  end
-
-  home_team.each do |player|
-    sql = "UPDATE `oconnor` SET `mp`='#{player.mp}', `team`='#{home_slug}', `opp`='#{away_slug}', "
-    player.stats.each_pair {|key,value| sql << "`#{key}`='#{value}', "}
-    sql = sql[0..sql.length-3]
-    t_name = player.name.gsub("'", %q(\\\'))
-    sql << " WHERE `date` = '#{Date.today}' AND `name` = '#{t_name}';"
-    puts sql
-  end
+  num-=1
 end
-
-=begin
-Phil (Flip) Pressey (FD) -> change to just Phil
-Brad vs Bradley Beal -> Bradley
-Glen Rice Jr. (FD) -> Glen Rice
-Jose Juan Barea -> Jose Barea
-Jeffrey Taylor -> Jeff Taylor
-=end
-
-
 
