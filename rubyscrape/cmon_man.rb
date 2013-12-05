@@ -218,19 +218,10 @@ def extract_info_advanced(input)
   return adv_players
 end
 
-bballref_url = "http://www.basketball-reference.com/boxscores/201311220BOS.html"
+
 urls = []
-urls << "http://www.basketball-reference.com/boxscores/201311220BOS.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220CHA.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220DAL.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220LAL.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220DET.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220MEM.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220MIN.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220NOP.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220PHI.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220POR.html"
-urls << "http://www.basketball-reference.com/boxscores/201311220TOR.html"
+urls << "http://www.basketball-reference.com/boxscores/201312010TOR.html"
+
 
 urls.each do |url|
   doc = Nokogiri::HTML(open(url))
@@ -289,7 +280,7 @@ urls.each do |url|
     player.stats.each_pair {|key,value| sql << "`#{key}`='#{value}', "}
     sql = sql[0..sql.length-3]
     t_name = player.name.gsub("'", %q(\\\'))
-    sql << " WHERE `date` = '#{Date.today}' AND `name` = '#{t_name}';"
+    sql << " WHERE `date` = '2013-12-01' AND `name` = '#{t_name}';"
     puts sql
   end
 
@@ -298,7 +289,7 @@ urls.each do |url|
     player.stats.each_pair {|key,value| sql << "`#{key}`='#{value}', "}
     sql = sql[0..sql.length-3]
     t_name = player.name.gsub("'", %q(\\\'))
-    sql << " WHERE `date` = '#{Date.today}' AND `name` = '#{t_name}';"
+    sql << " WHERE `date` = '2013-12-01' AND `name` = '#{t_name}';"
     puts sql
   end
 end

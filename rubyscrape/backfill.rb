@@ -239,7 +239,6 @@ urls = []
       num-=1
   end
 
-
 urls.each do |url|
   url_year = url[46..49].to_i
   url_month = url[50..51].to_i
@@ -310,7 +309,7 @@ urls.each do |url|
           t_name2 = t_name.gsub(" ", "")
           t_name2 = t_name2.downcase
           t_date_name << t_name2
-          sql = "INSERT INTO `oconnor` (`date_name`, `date`, `name`, team, opp, mp, fg, fga, fg_perc, threep, threepa, threep_perc, ft, fta, ft_perc, orb, drb, trb, ast, stl, blk, tov, pf, pts, ts_perc, efg_perc, orb_perc, drb_perc, trb_perc, ast_perc, stl_perc, blk_perc, tov_perc, usg_perc, o_rtg, d_rtg, fanduel_pts) VALUES ("
+          sql = "REPLACE INTO `oconnor` (`date_name`, `date`, `name`, team, opp, mp, fg, fga, fg_perc, threep, threepa, threep_perc, ft, fta, ft_perc, orb, drb, trb, ast, stl, blk, tov, pf, pts, ts_perc, efg_perc, orb_perc, drb_perc, trb_perc, ast_perc, stl_perc, blk_perc, tov_perc, usg_perc, o_rtg, d_rtg, fanduel_pts) VALUES ("
           sql << "'#{t_date_name}', '#{checkthisshit}', '#{t_name}', '#{away_slug}', '#{home_slug}', '#{player.mp}',"
           player.stats.each_pair {|key,value| sql << "'#{value}', "}
           temp_fdp = (player.stats[:pts]+(player.stats[:trb]*1.2)+(player.stats[:ast]*1.5)+(player.stats[:blk]*2)+player.stats[:stl]*2-player.stats[:tov])
@@ -327,14 +326,14 @@ urls.each do |url|
           t_name2 = t_name.gsub(" ", "")
           t_name2 = t_name2.downcase
           t_date_name << t_name2
-          sql = "INSERT INTO `oconnor` (`date_name`, `date`, `name`, team, opp, mp, fg, fga, fg_perc, threep, threepa, threep_perc, ft, fta, ft_perc, orb, drb, trb, ast, stl, blk, tov, pf, pts, ts_perc, efg_perc, orb_perc, drb_perc, trb_perc, ast_perc, stl_perc, blk_perc, tov_perc, usg_perc, o_rtg, d_rtg, fanduel_pts) VALUES ("
-          sql << "'#{t_date_name}', #{checkthisshit}', '#{t_name}', '#{home_slug}', '#{away_slug}', '#{player.mp}',"
+          sql = "REPLACE INTO `oconnor` (`date_name`, `date`, `name`, team, opp, mp, fg, fga, fg_perc, threep, threepa, threep_perc, ft, fta, ft_perc, orb, drb, trb, ast, stl, blk, tov, pf, pts, ts_perc, efg_perc, orb_perc, drb_perc, trb_perc, ast_perc, stl_perc, blk_perc, tov_perc, usg_perc, o_rtg, d_rtg, fanduel_pts) VALUES ("
+          sql << "'#{t_date_name}', '#{checkthisshit}', '#{t_name}', '#{home_slug}', '#{away_slug}', '#{player.mp}',"
           player.stats.each_pair {|key,value| sql << "'#{value}', "}
           temp_fdp = (player.stats[:pts]+(player.stats[:trb]*1.2)+(player.stats[:ast]*1.5)+(player.stats[:blk]*2)+player.stats[:stl]*2-player.stats[:tov])
           sql << "'#{temp_fdp}', "
           sql = sql[0..sql.length-3]
           sql << ");"
-          #puts sql
+          puts sql
         end
       end
       num2-=1

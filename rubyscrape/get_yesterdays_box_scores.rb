@@ -5,6 +5,12 @@ require 'nokogiri'
 require 'CSV'
 require 'tiny_tds'
 require 'active_support/all'
+require 'mysql'
+require 'dotenv'
+#$stdout.sync = true
+#$stdout = File.new('bballrefsql.txt', 'a')
+
+Dotenv.load
 
 class Player
   attr_reader :name, :mp, :stats
@@ -298,6 +304,7 @@ urls.each do |url|
   home_team = team2_basic
 
   sql = ""
+  queries = []
 
    away_team.each do |player|
     sql = "UPDATE `oconnor` SET `mp`='#{player.mp}', `team`='#{away_slug}', `opp`='#{home_slug}', "
@@ -306,16 +313,22 @@ urls.each do |url|
     sql << "`fanduel_pts`='#{temp_fdp}'"
     t_name = player.name.gsub("'", %q(\\\'))
     sql << " WHERE `date` = '#{Date.today-1}' AND `name` = '#{t_name}';"
-    puts sql
+    queries << sql
   end
 
   home_team.each do |player|
     sql = "UPDATE `oconnor` SET `mp`='#{player.mp}', `team`='#{home_slug}', `opp`='#{away_slug}', "
     player.stats.each_pair {|key,value| sql << "`#{key}`='#{value}', "}
-temp_fdp = (player.stats[:pts]+(player.stats[:trb]*1.2)+(player.stats[:ast]*1.5)+(player.stats[:blk]*2)+player.stats[:stl]*2-player.stats[:tov])
+    temp_fdp = (player.stats[:pts]+(player.stats[:trb]*1.2)+(player.stats[:ast]*1.5)+(player.stats[:blk]*2)+player.stats[:stl]*2-player.stats[:tov])
     sql << "`fanduel_pts`='#{temp_fdp}'"
     t_name = player.name.gsub("'", %q(\\\'))
     sql << " WHERE `date` = '#{Date.today-1}' AND `name` = '#{t_name}';"
-    puts sql
+    queries << sql
+  end
+db = Mysql.new('127.0.0.1','root',ENV["SQL_PASSWORD"],'fanduel')
+queries.each do |que|
+  db.query que
   end
 end
+
+

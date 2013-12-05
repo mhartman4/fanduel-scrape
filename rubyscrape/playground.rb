@@ -1,6 +1,11 @@
-require 'date'
-oct29 = Date.new(2013, 10, 29)
-td = Date.today
-num2 = (td-oct29).to_s[0..1].to_i
+require 'mysql'
+require 'dotenv'
 
+Dotenv.load
 
+db = Mysql.new('127.0.0.1','root',ENV["SQL_PASSWORD"],'fanduel')
+
+results = db.query("SELECT * FROM OCONNOR")
+results.each do |result|
+  puts result[0]
+end

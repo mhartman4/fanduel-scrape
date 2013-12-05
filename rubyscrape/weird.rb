@@ -4,6 +4,7 @@ require 'nokogiri'
 require 'CSV'
 require 'tiny_tds'
 require 'active_support/all'
+require 'date'
 
 class Player
   attr_reader :name, :mp, :stats
@@ -226,15 +227,119 @@ s = doc.to_s
 num = s.scan(/>Box Score</).count
 
 urls = []
-while num > 0 do
- needle = manscape(s, '">Box Score', '">Box Score', -17, -1)[0]
-  s = manscape(s, '">Box Score', '">Box Score', 0, 20)[1]
-  s = manscape(s, '</tr>', '</tr>', 0, 20)[1]
-  needle = "http://www.basketball-reference.com/boxscores/" << needle
-  if (needle.scan(/1122/).count==0)
-    urls << needle
-    puts needle
+ urls << "http://www.basketball-reference.com/boxscores/201312010DET.html"
+ urls << "http://www.basketball-reference.com/boxscores/201312010LAC.html"
+
+
+urls.each do |url|
+  url_year = url[46..49].to_i
+  url_month = url[50..51].to_i
+  url_day = url[52..53].to_i
+  oct29 = Date.new(2013, 10, 29)
+  td = Date.today
+  num2 = (td-oct29).to_s[0..1].to_i
+  num2=0
+    checkthisshit = Date.today-num2
+    url_date = Date.new(url_year, url_month, url_day)
+
+        doc = Nokogiri::HTML(open(url))
+        s = doc.to_s
+
+        away_slug = s[s.index('2014.html')-4..s.index('2014.html')-2]
+        home_slug = url[url.length-8..url.length-6]
+
+        team1_basic = manscape(s, 'Basic Box Score', '_advanced', 0, 0)[0]
+        s = manscape(s, 'Basic Box Score', '_advanced', 0, 0)[1]
+
+        team1_advanced = manscape(s, 'Advanced Box Score', '_basic', 0, 0)[0]
+        s = manscape(s, 'Advanced Box Score', '_basic', 0, 0)[1]
+
+        team2_basic = manscape(s, 'Basic Box Score', '_advanced', 0, 0)[0]
+        s = manscape(s, 'Basic Box Score', '_advanced', 0, 0)[1]
+
+        team2_advanced = manscape(s, 'Advanced Box Score', '</tr></tfoot>',0, 0)[0]
+
+        #remove the categories
+        team1_basic = remove_categories(team1_basic)
+        team1_advanced = remove_categories(team1_advanced)
+        team2_basic = remove_categories(team2_basic)
+        team2_advanced = remove_categories(team2_advanced)
+
+        team1_basic = extract_info_basic(team1_basic)
+        team2_basic = extract_info_basic(team2_basic)
+        team1_advanced = extract_info_advanced(team1_advanced)
+        team2_advanced = extract_info_advanced(team2_advanced)
+
+        team1_basic.each do |basic_plyr|
+          team1_advanced.each do |adv_plyr|
+            if basic_plyr.name==adv_plyr.name
+              basic_plyr.stats.merge!(adv_plyr.stats) {|key, aval, bval| aval.merge b_val}
+            end
+          end
+        end
+
+        team2_basic.each do |basic_plyr|
+          team2_advanced.each do |adv_plyr|
+            if basic_plyr.name==adv_plyr.name
+              basic_plyr.stats.merge!(adv_plyr.stats) {|key, aval, bval| aval.merge b_val}
+            end
+          end
+        end
+
+
+        #start doin shit
+        away_team = team1_basic
+        home_team = team2_basic
+
+        sql = ""
+
+        away_team.each do |player|
+          checkthisshit = "2013-12-01"
+          t_name = player.name.gsub("'", %q(\\\'))
+          t_date_name = "#{checkthisshit}"
+          t_date_name = t_date_name.gsub("-", "")
+          t_name2 = t_name.gsub(" ", "")
+          t_name2 = t_name2.downcase
+          t_date_name << t_name2
+          sql = "REPLACE INTO `oconnor` (`date_name`, `date`, `name`, team, opp, mp, fg, fga, fg_perc, threep, threepa, threep_perc, ft, fta, ft_perc, orb, drb, trb, ast, stl, blk, tov, pf, pts, ts_perc, efg_perc, orb_perc, drb_perc, trb_perc, ast_perc, stl_perc, blk_perc, tov_perc, usg_perc, o_rtg, d_rtg, fanduel_pts) VALUES ("
+          sql << "'#{t_date_name}', '#{checkthisshit}', '#{t_name}', '#{away_slug}', '#{home_slug}', '#{player.mp}',"
+          player.stats.each_pair {|key,value| sql << "'#{value}', "}
+          temp_fdp = (player.stats[:pts]+(player.stats[:trb]*1.2)+(player.stats[:ast]*1.5)+(player.stats[:blk]*2)+player.stats[:stl]*2-player.stats[:tov])
+          sql << "'#{temp_fdp}', "
+          sql = sql[0..sql.length-3]
+          sql << ");"
+          puts sql
+        end
+
+        home_team.each do |player|
+          t_name = player.name.gsub("'", %q(\\\'))
+          t_date_name = "#{checkthisshit}"
+          t_date_name = t_date_name.gsub("-", "")
+          t_name2 = t_name.gsub(" ", "")
+          t_name2 = t_name2.downcase
+          t_date_name << t_name2
+          sql = "REPLACE INTO `oconnor` (`date_name`, `date`, `name`, team, opp, mp, fg, fga, fg_perc, threep, threepa, threep_perc, ft, fta, ft_perc, orb, drb, trb, ast, stl, blk, tov, pf, pts, ts_perc, efg_perc, orb_perc, drb_perc, trb_perc, ast_perc, stl_perc, blk_perc, tov_perc, usg_perc, o_rtg, d_rtg, fanduel_pts) VALUES ("
+          sql << "'#{t_date_name}', '#{checkthisshit}', '#{t_name}', '#{home_slug}', '#{away_slug}', '#{player.mp}',"
+          player.stats.each_pair {|key,value| sql << "'#{value}', "}
+          temp_fdp = (player.stats[:pts]+(player.stats[:trb]*1.2)+(player.stats[:ast]*1.5)+(player.stats[:blk]*2)+player.stats[:stl]*2-player.stats[:tov])
+          sql << "'#{temp_fdp}', "
+          sql = sql[0..sql.length-3]
+          sql << ");"
+          puts sql
+
+      end
   end
-  num-=1
-end
+
+
+
+
+
+=begin
+Phil (Flip) Pressey (FD) -> change to just Phil
+Brad vs Bradley Beal -> Bradley
+Glen Rice Jr. (FD) -> Glen Rice
+Jose Juan Barea -> Jose Barea
+Jeffrey Taylor -> Jeff Taylor
+=end
+
 

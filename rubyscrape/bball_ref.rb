@@ -53,7 +53,7 @@ def parse_to_player_strings(teamblock)
 end
 
 
-bballref_url = "http://www.basketball-reference.com/boxscores/201311210DEN.html"
+bballref_url = "http://www.basketball-reference.com/boxscores/201312010TOR.html"
 
 doc = Nokogiri::HTML(open(bballref_url))
 s = doc.to_s
