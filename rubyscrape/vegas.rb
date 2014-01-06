@@ -3,12 +3,17 @@ require 'open-uri'
 require 'nokogiri'
 require 'mechanize'
 require 'mysql'
+require 'dotenv'
+
+Dotenv.load
 
 def manscape(input, a, b, a_plus_minus, b_plus_minus)
   trimmings = input[input.index(a)+a_plus_minus..input.index(b)+b_plus_minus]
   the_rest = input[input.index(b)+b_plus_minus..input.length]
   return [trimmings, the_rest]
 end
+
+db = Mysql.new('127.0.0.1','root',ENV["SQL_PASSWORD"],'fanduel')
 
 doc = Nokogiri::HTML(open('http://www.vegasinsider.com/nba/scoreboard/'))
 s = doc.to_s
@@ -80,9 +85,8 @@ while num_fixtures > 0 do
       fixture_block = manscape(fixture_block, '<b><a class="black"', 'url(/graphics/component_shadow2.gif)', 0, 0)[1]
       fixture_block = manscape(fixture_block, '/', '<b><a class="black"', 0, 0)[1]
     end
-
   sql = "UPDATE oconnor SET over_under = '#{o_u}', spread='#{spread}' where date = '#{Date.today}' and (team = '#{home_slug}' OR team = '#{away_slug}');"
-  puts sql
+  db.query(sql)
   num_fixtures-=1
 end
 

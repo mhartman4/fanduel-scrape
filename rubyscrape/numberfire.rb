@@ -16,6 +16,8 @@ end
 doc = Nokogiri::HTML(open('https://www.numberfire.com/nba/fantasy/fantasy-basketball-projections'))
 s = doc.to_s
 
+puts s
+
 s = manscape(s, 'daily_projections', '}}}; ', 20, 3)[0]
 daily_proj = s[0..s.index('"teams"')]
 players = s[s.index('"players"')..s.length]
@@ -25,6 +27,7 @@ players = players[11..players.length]
 player_array = []
 
 player_count = players.scan(/sports_reference_id/).length
+
 
 while player_count > 0 do
   player_string = players[0..players.index('}')]

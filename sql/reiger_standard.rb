@@ -1,6 +1,7 @@
 start_time = Time.now
 require 'csv'
 require 'mysql'
+require 'spreadsheet'
 
 class Player
   attr_reader :position, :name, :points, :salary
@@ -10,6 +11,14 @@ class Player
     @name = name
     @points = points.to_f
     @salary = salary.to_i
+  end
+end
+
+def print_players(all)
+  all.each do |ary|
+    ary.each do |plyr|
+      puts "#{plyr.name} - #{plyr.points}, #{plyr.salary}"
+    end
   end
 end
 
@@ -24,7 +33,6 @@ def get_player_index(plyr_name, all_arrays)
     end
   end
 end
-
 
 class Lineup
   attr_reader :pg1, :pg2, :sg1, :sg2, :sf1, :sf2, :pf1, :pf2, :c, :payroll, :output, :roster
@@ -45,6 +53,7 @@ class Lineup
   end
 end
 
+blacklist = ["Andre Drummond"]
 
 centers = []
 pfs = []
@@ -52,48 +61,36 @@ sfs = []
 sgs = []
 pgs = []
 
-=begin
-#read in player list and put them in the appropriate array (doesn't take long)
-CSV.foreach("reiger.csv", :headers => true) do |row|
-  temp_position = row["position"]
-  temp_name = row["name"]
-  temp_points = row["projected_points"].to_f
-  temp_salary = row["salary"].to_f
-  temp_value = temp_points/temp_salary*1000
-  temp_player = Player.new(temp_position, temp_name, temp_points, temp_salary)
+book = Spreadsheet.open('/Users/michael-orderup/SkyDrive/Project Mellon/Mellon.xls')
+sheet1 = book.worksheet('Output - Reiger')
 
-  if temp_position=="C"
-    #if temp_value > 4.3
-      centers << temp_player
-    #end
-  elsif temp_position=="PF"
-    #if temp_name!="Zach Randolph"
-    #if temp_value > 4.6
-      pfs << temp_player
-    #end
-    #end
-  elsif temp_position=="SF"
-    #if temp_value > 4.3
-      sfs << temp_player
-    #end
-  elsif temp_position=="SG"
-    #if temp_value > 4.2
-      sgs << temp_player
-    #end
-  elsif temp_position=="PG"
-    #if temp_value > 4.3
-    pgs << temp_player
-    #end
+for i in 1..sheet1.count-1
+  temp_position = sheet1[i,0].value
+  temp_name = sheet1[i,1].value
+  temp_points = sheet1[i,2].value.to_f
+  temp_salary = sheet1[i,3].value.to_f
+
+  if blacklist.index(temp_name)==nil
+    if temp_position!="NULL"
+      temp_player = Player.new(temp_position, temp_name, temp_points, temp_salary)
+      if temp_position=="C"
+          centers << temp_player
+      elsif temp_position=="PF"
+          pfs << temp_player
+      elsif temp_position=="SF"
+          sfs << temp_player
+      elsif temp_position=="SG"
+          sgs << temp_player
+      elsif temp_position=="PG"
+        pgs << temp_player
+      end
+    end
   end
 end
-=end
-
-
-
-
-
 all = [centers, pfs, sfs, sgs, pgs]
 
+print_players(all)
+=begin
 #get rid of anyone with projected 0
 all.each do |ary|
   ary.each do |plyr|

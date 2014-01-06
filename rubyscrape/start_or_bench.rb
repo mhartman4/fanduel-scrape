@@ -59,7 +59,7 @@ def extract_info_basic(input)
 
     mp = plyr[0..plyr.index('"')-1]
     plyr = manscape(plyr, mp, '</td>',0, 7)[1]
-    mp = mp.to_f/60
+    mp = mp.to_f
 
     fg = manscape(plyr, '"right">', '</td>', 8, -1)[0].to_f
     stats.merge! :fg => fg
@@ -227,7 +227,6 @@ s = doc.to_s
 num = s.scan(/>Box Score</).count
 
 urls = []
-
   while num > 0 do
       needle = manscape(s, '">Box Score', '">Box Score', -17, -1)[0]
       s = manscape(s, '">Box Score', '">Box Score', 0, 20)[1]
@@ -240,22 +239,16 @@ urls = []
       num-=1
   end
 
-
 urls.each do |url|
   url_year = url[46..49].to_i
   url_month = url[50..51].to_i
   url_day = url[52..53].to_i
-  #oct29 = Date.new(2013, 10, 29)
-  #oct 29 = THE DATE YOU WANT TO GO BACK TO
-  oct29 = Date.new(2013, 12, 25)
-
-  #td = the date you want to stop at
-  #td = Date.today
-  td = Date.new(2014,01,01)
+  oct29 = Date.new(2013, 10, 29)
+  td = Date.today
   num2 = (td-oct29).to_s[0..1].to_i
 
   while num2 > 0
-    checkthisshit = td-num2
+    checkthisshit = Date.today-num2
     url_date = Date.new(url_year, url_month, url_day)
       if url_date==checkthisshit
         doc = Nokogiri::HTML(open(url))
@@ -308,7 +301,6 @@ urls.each do |url|
         home_team = team2_basic
 
         sql = ""
-
         starter_count = 0
         away_team.each do |player|
           t_name = player.name.gsub("'", %q(\\\'))
@@ -318,20 +310,13 @@ urls.each do |url|
           t_name2 = t_name2.downcase
           t_date_name << t_name2
 
-          temp_s_b = ""
-          if starter_count < 5
-            temp_s_b = "starter"
+          if starter_count <5
+            sql = "UPDATE `oconnor` SET `starter_bench`='starter' WHERE `date_name`='#{t_date_name}';"
+            puts sql
           else
-            temp_s_b = "bench"
+            sql = "UPDATE `oconnor` SET `starter_bench`='bench' WHERE `date_name`='#{t_date_name}';"
+            puts sql
           end
-
-          sql = "REPLACE INTO `oconnor` (`date_name`, `date`, `name`, team, opp, mp, fg, fga, fg_perc, threep, threepa, threep_perc, ft, fta, ft_perc, orb, drb, trb, ast, stl, blk, tov, pf, pts, ts_perc, efg_perc, orb_perc, drb_perc, trb_perc, ast_perc, stl_perc, blk_perc, tov_perc, usg_perc, o_rtg, d_rtg, fanduel_pts, starter_bench) VALUES ("
-          sql << "'#{t_date_name}', '#{checkthisshit}', '#{t_name}', '#{away_slug}', '#{home_slug}', '#{player.mp}',"
-          player.stats.each_pair {|key,value| sql << "'#{value}', "}
-          temp_fdp = (player.stats[:pts]+(player.stats[:trb]*1.2)+(player.stats[:ast]*1.5)+(player.stats[:blk]*2)+player.stats[:stl]*2-player.stats[:tov])
-          sql << "'#{temp_fdp}', '#{temp_s_b}'"
-          sql << ");"
-          puts sql
           starter_count+=1
         end
 
@@ -343,21 +328,13 @@ urls.each do |url|
           t_name2 = t_name.gsub(" ", "")
           t_name2 = t_name2.downcase
           t_date_name << t_name2
-
-          temp_s_b = ""
-          if starter_count < 5
-            temp_s_b = "starter"
+          if starter_count <5
+            sql = "UPDATE `oconnor` SET `starter_bench`='starter' WHERE `date_name`='#{t_date_name}';"
+            puts sql
           else
-            temp_s_b = "bench"
+            sql = "UPDATE `oconnor` SET `starter_bench`='bench' WHERE `date_name`='#{t_date_name}';"
+            puts sql
           end
-
-          sql = "REPLACE INTO `oconnor` (`date_name`, `date`, `name`, team, opp, mp, fg, fga, fg_perc, threep, threepa, threep_perc, ft, fta, ft_perc, orb, drb, trb, ast, stl, blk, tov, pf, pts, ts_perc, efg_perc, orb_perc, drb_perc, trb_perc, ast_perc, stl_perc, blk_perc, tov_perc, usg_perc, o_rtg, d_rtg, fanduel_pts, starter_bench) VALUES ("
-          sql << "'#{t_date_name}', '#{checkthisshit}', '#{t_name}', '#{home_slug}', '#{away_slug}', '#{player.mp}',"
-          player.stats.each_pair {|key,value| sql << "'#{value}', "}
-          temp_fdp = (player.stats[:pts]+(player.stats[:trb]*1.2)+(player.stats[:ast]*1.5)+(player.stats[:blk]*2)+player.stats[:stl]*2-player.stats[:tov])
-          sql << "'#{temp_fdp}', '#{temp_s_b}'"
-          sql << ");"
-          puts sql
           starter_count+=1
         end
       end

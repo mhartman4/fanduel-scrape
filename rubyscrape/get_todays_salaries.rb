@@ -6,10 +6,8 @@ require 'mechanize'
 require 'mysql'
 require 'dotenv'
 
-#$stdout.sync = true
-#$stdout = File.new('fanduelsql.txt', 'a')
+Dotenv.load
 
-#get the right url
 agent = Mechanize.new
 page = agent.get('http://fanduel.com/league/daily_nba_freeroll')
 fanduel_url = page.uri.to_s
@@ -39,10 +37,7 @@ team_array = []
 team_array.push({:id => 708, :team => "WAS"}, {:id => 700, :team => "ORL"}, {:id => 682, :team => "CHI"}, {:id => 697, :team => "NOP"}, {:id => 705, :team => "SAS"}, {:id => 679, :team => "ATL"}, {:id => 707, :team => "UTA"}, {:id => 688, :team => "HOU"}, {:id => 703, :team => "POR"}, {:id => 689, :team => "IND"})
 team_array.push({:id => 680, :team => "BOS"}, {:id => 696, :team => "BRK"}, {:id => 681, :team => "CHA"}, {:id => 683, :team => "CLE"}, {:id => 684, :team => "DAL"}, {:id => 685, :team => "DEN"}, {:id => 686, :team => "DET"}, {:id => 687, :team => "GSW"}, {:id => 692, :team => "MEM"}, {:id => 693, :team => "MIA"}, {:id => 694, :team => "MIL"}, {:id => 699, :team => "OKC"}, {:id => 701, :team => "PHI"}, {:id => 702, :team => "PHO"}, {:id => 704, :team => "SAC"}, {:id => 706, :team => "TOR"})
 team_array.push({:id => 679, :team => "ATL"}, {:id => 690, :team => "LAC"}, {:id => 695, :team => "MIN"})
-team_array.push({:id => 698, :team => "NYK"})
-#{:id => ?, :team => "LAL"},
-
-
+team_array.push({:id => 698, :team => "NYK"}, {:id => 691, :team => "LAL"})
 
 #get the fixture info
 fixture_block = s[s.index('FixtureCompactString')+24..s.index('FD.playerpicker.positions')-7]
@@ -107,6 +102,9 @@ while i < num do
     if temp_name == "Tim Hardaway Jr."
       temp_name = "Tim Hardaway"
     end
+    if temp_name == "Giannis Adetokunbo"
+      temp_name = "Giannis Antetokounmpo"
+    end
   player_string = player_string[player_string.index(',')+1..player_string.length-1]
 
   #skip
@@ -152,13 +150,6 @@ while i < num do
   i +=1
 end
 
-
-
-
-
-#fixture = {:id => nf_id, :team => temp_name}
-#  player_array.push(player)
-
 #find when the contest is starting
 countdown = s[s.index("Countdown.make")..s.index("Countdown.make")+50]
 countdown = countdown.gsub(/[^0-9]/, '').to_i
@@ -168,6 +159,8 @@ days_til_start = countdown/86400
 sqls = []
 sql = ""
 names = "("
+
+#get todays players names, create query, and append to query array
 players.each do |player|
   t_name = player.name.gsub("'", %q(\\\'))
   t_date_name = "#{Date.today+days_til_start}"
@@ -182,7 +175,7 @@ players.each do |player|
   sqls << beginning
 end
 names = names[0..names.length-3] << ")"
-#puts names
+
 db = Mysql.new('127.0.0.1','root',ENV["SQL_PASSWORD"],'fanduel')
 sqls.each do |sql|
   db.query sql

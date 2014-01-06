@@ -198,7 +198,7 @@ for i in 0..centers.length-1
                   #filter for teams under 60k in payroll
                   if (temp_payroll < 60001)
                       temp_output = centers[i].points+pfs[j].points+pfs[k].points+sfs[l].points+sfs[m].points+sgs[n].points+sgs[o].points+pgs[p].points+pgs[q].points
-                      if temp_output > 330
+                      if temp_output > 350
                         temp_lineup = Lineup.new(pgs[q], pgs[p], sgs[o], sgs[n], sfs[m], sfs[l], pfs[k], pfs[j], centers[i])
                         puts temp_output
                         possible_lineups << temp_lineup

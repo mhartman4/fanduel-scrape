@@ -83,8 +83,8 @@ while player_count > 0 do
 
   sql = "UPDATE `oconnor` SET `rotowire_fdp`='#{temp_fdp}', `rotowire_mp`='#{temp_mp}' WHERE `date` = '#{Date.today}' AND `name` = '#{temp_name.gsub("'", %q(\\\'))}';"
 
-  #db.query sql
-  puts sql
+  db.query sql
+  #puts sql
   #puts player_string
 end
 

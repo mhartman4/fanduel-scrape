@@ -7,12 +7,17 @@ require 'tiny_tds'
 require 'active_support/all'
 require 'mysql'
 require 'dotenv'
-#$stdout.sync = true
-#$stdout = File.new('bballrefsql.txt', 'a')
+
 
 Dotenv.load
 
-class Player
+def manscape(input, a, b, a_plus_minus, b_plus_minus)
+  trimmings = input[input.index(a)+a_plus_minus..input.index(b)+b_plus_minus]
+  the_rest = input[input.index(b)+b_plus_minus..input.length]
+  return [trimmings, the_rest]
+end
+
+class Player2
   attr_reader :name, :mp, :stats
 
   def initialize(name, mp, stats)
@@ -22,13 +27,9 @@ class Player
   end
 end
 
-def manscape(input, a, b, a_plus_minus, b_plus_minus)
-  trimmings = input[input.index(a)+a_plus_minus..input.index(b)+b_plus_minus]
-  the_rest = input[input.index(b)+b_plus_minus..input.length]
-  return [trimmings, the_rest]
-end
 
-def remove_categories(input)
+
+def remove_categories2(input)
   input = input[input.index('<tbody>')..input.index('</tbody>')]
   a = input.index('<tr class="no_ranker thead">')
   b = input.index('</th>
@@ -65,7 +66,7 @@ def extract_info_basic(input)
 
     mp = plyr[0..plyr.index('"')-1]
     plyr = manscape(plyr, mp, '</td>',0, 7)[1]
-    mp = mp.to_f
+    mp = mp.to_f/60
 
     fg = manscape(plyr, '"right">', '</td>', 8, -1)[0].to_f
     stats.merge! :fg => fg
@@ -139,7 +140,7 @@ def extract_info_basic(input)
     stats.merge! :pts => pts
     plyr = manscape(plyr, '"right">', '</td>', 8, 6)[1]
 
-    plyr_obj = Player.new(name, mp, stats)
+    plyr_obj = Player2.new(name, mp, stats)
     basic_players << plyr_obj
   end
   return basic_players
@@ -219,12 +220,11 @@ def extract_info_advanced(input)
     stats.merge! :d_rtg => d_rtg
     plyr = manscape(plyr, '"right">', '</td>', 8, 6)[1]
 
-    plyr_obj = Player.new(name, mp, stats)
+    plyr_obj = Player2.new(name, mp, stats)
     adv_players << plyr_obj
   end
   return adv_players
 end
-
 
 initial_url = "http://www.basketball-reference.com/leagues/NBA_2014_games.html"
 doc = Nokogiri::HTML(open(initial_url))
@@ -233,12 +233,13 @@ s = doc.to_s
 #get all of yesterday's box score urls
 num = s.scan(/>Box Score</).count
 urls = []
+
 while num > 0 do
  needle = manscape(s, '">Box Score', '">Box Score', -17, -1)[0]
   s = manscape(s, '">Box Score', '">Box Score', 0, 20)[1]
   s = manscape(s, '</tr>', '</tr>', 0, 20)[1]
   needle = "http://www.basketball-reference.com/boxscores/" << needle
-  d = (Date.today-1).to_s
+  d = (Date.today-14).to_s
   yr = d[0..3]
   mo = d[5..6]
   dy = d[8..9]
@@ -249,8 +250,10 @@ while num > 0 do
     needle_date = "#{needle_year}-#{needle_month}-#{needle_day}"
     urls << needle
   end
+  #puts needle
   num-=1
 end
+ #urls << "http://www.basketball-reference.com/boxscores/201312050BRK.html"
 
 #read each box score and return sql
 urls.each do |url|
@@ -272,10 +275,10 @@ urls.each do |url|
   team2_advanced = manscape(s, 'Advanced Box Score', '</tr></tfoot>',0, 0)[0]
 
   #remove the categories
-  team1_basic = remove_categories(team1_basic)
-  team1_advanced = remove_categories(team1_advanced)
-  team2_basic = remove_categories(team2_basic)
-  team2_advanced = remove_categories(team2_advanced)
+  team1_basic = remove_categories2(team1_basic)
+  team1_advanced = remove_categories2(team1_advanced)
+  team2_basic = remove_categories2(team2_basic)
+  team2_advanced = remove_categories2(team2_advanced)
 
   team1_basic = extract_info_basic(team1_basic)
   team2_basic = extract_info_basic(team2_basic)
@@ -306,28 +309,43 @@ urls.each do |url|
   sql = ""
   queries = []
 
+   starter_count = 0
    away_team.each do |player|
     sql = "UPDATE `oconnor` SET `mp`='#{player.mp}', `team`='#{away_slug}', `opp`='#{home_slug}', "
     player.stats.each_pair {|key,value| sql << "`#{key}`='#{value}', "}
     temp_fdp = (player.stats[:pts]+(player.stats[:trb]*1.2)+(player.stats[:ast]*1.5)+(player.stats[:blk]*2)+player.stats[:stl]*2-player.stats[:tov])
-    sql << "`fanduel_pts`='#{temp_fdp}'"
+    sql << "`fanduel_pts`='#{temp_fdp}',"
+    if starter_count < 5
+      sql << "`starter_bench`='starter'"
+    else
+      sql << "`starter_bench`='bench'"
+    end
     t_name = player.name.gsub("'", %q(\\\'))
-    sql << " WHERE `date` = '#{Date.today-1}' AND `name` = '#{t_name}';"
+    sql << " WHERE `date` = '#{d}' AND `name` = '#{t_name}';"
     queries << sql
+    starter_count+=1
   end
 
+  starter_count = 0
   home_team.each do |player|
     sql = "UPDATE `oconnor` SET `mp`='#{player.mp}', `team`='#{home_slug}', `opp`='#{away_slug}', "
     player.stats.each_pair {|key,value| sql << "`#{key}`='#{value}', "}
     temp_fdp = (player.stats[:pts]+(player.stats[:trb]*1.2)+(player.stats[:ast]*1.5)+(player.stats[:blk]*2)+player.stats[:stl]*2-player.stats[:tov])
-    sql << "`fanduel_pts`='#{temp_fdp}'"
+    sql << "`fanduel_pts`='#{temp_fdp}',"
+    if starter_count < 5
+      sql << "`starter_bench`='starter'"
+    else
+      sql << "`starter_bench`='bench'"
+    end
     t_name = player.name.gsub("'", %q(\\\'))
-    sql << " WHERE `date` = '#{Date.today-1}' AND `name` = '#{t_name}';"
+    sql << " WHERE `date` = '#{d}' AND `name` = '#{t_name}';"
     queries << sql
+    starter_count+=1
   end
 db = Mysql.new('127.0.0.1','root',ENV["SQL_PASSWORD"],'fanduel')
 queries.each do |que|
-  db.query que
+  #db.query que
+  puts que
   end
 end
 

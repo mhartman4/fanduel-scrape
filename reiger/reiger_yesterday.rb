@@ -13,14 +13,11 @@ class Player
   end
 end
 
-def get_player_index(plyr_name, all_arrays)
-  all_arrays.each do |ary|
-    ary.each do |plyr|
-      plyr_index = nil
-      if plyr.name == plyr_name
-        plyr_index = ary.index(plyr)
-        return plyr_index
-      end
+def get_player_index(plyr_name, ary)
+  ary.each do |a|
+    if a.name == plyr_name
+      plyr_index = ary.index(a)
+      return plyr_index
     end
   end
 end
@@ -52,7 +49,7 @@ sfs = []
 sgs = []
 pgs = []
 
-=begin
+
 #read in player list and put them in the appropriate array (doesn't take long)
 CSV.foreach("reiger.csv", :headers => true) do |row|
   temp_position = row["position"]
@@ -86,11 +83,6 @@ CSV.foreach("reiger.csv", :headers => true) do |row|
     #end
   end
 end
-=end
-
-
-
-
 
 all = [centers, pfs, sfs, sgs, pgs]
 
@@ -191,9 +183,9 @@ possible_lineups = []
 
 iteration_count = 0
 unique_count = 0
-all = [centers, pfs, sfs, sgs, pgs]
 
 =begin
+
 for i in 0..centers.length-1
   for j in 0..pfs.length-1
     for k in (j+1)..pfs.length-1
@@ -210,7 +202,7 @@ for i in 0..centers.length-1
                   #filter for teams under 60k in payroll
                   if (temp_payroll < 60001 && temp_payroll > 57500)
                       temp_output = centers[i].points+pfs[j].points+pfs[k].points+sfs[l].points+sfs[m].points+sgs[n].points+sgs[o].points+pgs[p].points+pgs[q].points
-                      if temp_output > 268
+                      if temp_output > 250
                         temp_lineup = Lineup.new(pgs[q], pgs[p], sgs[o], sgs[n], sfs[m], sfs[l], pfs[k], pfs[j], centers[i])
                         puts temp_output
                         possible_lineups << temp_lineup
